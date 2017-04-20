@@ -287,7 +287,7 @@ class Conv1D(_Conv):
             (see [constraints](../constraints.md)).
 
     # Input shape
-        3D tensor with shape: `(batch_size, steps, input_dim)`
+        2D tensor with shape: `(steps, input_dim)`
 
     # Output shape
         3D tensor with shape: `(batch_size, new_steps, filters)`
